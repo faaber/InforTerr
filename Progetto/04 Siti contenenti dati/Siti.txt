@@ -1,0 +1,3 @@
+https://www.usgs.gov/
+https://catalog.data.gov/dataset?metadata_type=geospatial
+https://scihub.copernicus.eu/

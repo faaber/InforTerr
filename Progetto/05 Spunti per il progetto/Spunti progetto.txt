@@ -1,0 +1,1 @@
+- Progetto semplice: censimento delle regioni; Progetto medio: studio dei terremoti: Protezione civile, IGV. Costruire la mappa dei terremoti dal 1900 a oggi. Spazializzare i crimini (non facile da realizzare). Dati climatici. Economia. Migrazioni. Data.gov: centinaia di migliaia di dataset. Aeroporti. Università.
