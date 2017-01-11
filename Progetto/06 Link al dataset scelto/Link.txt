@@ -1,0 +1,6 @@
+https://catalog.data.gov/dataset/u-s-hourly-climate-normals-1981-2010
+
+Cliccare su "Climate Normals FTP Server": giungiamo a queste pagine:
+
+https://catalog.data.gov/dataset/u-s-hourly-climate-normals-1981-2010/resource/7bb3a75e-e0e0-41d7-b9f7-e3a9cec09dc6
+ftp://ftp.ncdc.noaa.gov/pub/data/normals/1981-2010/
