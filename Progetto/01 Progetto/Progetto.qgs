@@ -3,15 +3,15 @@
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="R_tmin20170111161026682" name="R tmin">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="CSV_tmin20170111230355099" name="CSV tmin">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="cb_2015_us_state_20m20170110163758980" name="US State 20m">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="cb_2015_us_county_20m20170110163244230" name="US County 20m">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="cb_2015_us_county_20m20170110163244230" name="US County 20m">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -19,10 +19,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-212.29766655576750622</xmin>
-      <ymin>-10.26446715472472704</ymin>
-      <xmax>164.59792979423244219</xmax>
-      <ymax>45.84626444527528122</ymax>
+      <xmin>-136.21884737626533024</xmin>
+      <ymin>23.40866392279522046</ymin>
+      <xmax>-41.99494828876534314</xmax>
+      <ymax>37.43634682279522252</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -48,13 +48,13 @@
     <custom-order enabled="0">
       <item>cb_2015_us_county_20m20170110163244230</item>
       <item>cb_2015_us_state_20m20170110163758980</item>
-      <item>R_tmin20170111161026682</item>
+      <item>CSV_tmin20170111230355099</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="R tmin" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CSV tmin" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="R_tmin20170111161026682" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="CSV_tmin20170111230355099" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="US State 20m" showFeatureCount="0">
@@ -62,20 +62,20 @@
         <legendlayerfile isInOverview="0" layerid="cb_2015_us_state_20m20170110163758980" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="US County 20m" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="US County 20m" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="cb_2015_us_county_20m20170110163244230" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="cb_2015_us_county_20m20170110163244230" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <projectlayers>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>R_tmin20170111161026682</id>
-      <datasource>file:../07%20Dati%20raffinati/R%20tmin.txt?type=csv&amp;delimiter=%20&amp;trimFields=Yes&amp;skipEmptyFields=Yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <id>CSV_tmin20170111230355099</id>
+      <datasource>../09 CSV/CSV tmin.csv</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>R tmin</layername>
+      <layername>CSV tmin</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -89,25 +89,25 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="System">delimitedtext</provider>
-      <previewExpression>COALESCE("STNID", '&lt;NULL>')||', '||COALESCE("VALUE1", '&lt;NULL>')||', '||COALESCE("VALUE2", '&lt;NULL>')||', '||COALESCE("VALUE3", '&lt;NULL>')||', '||COALESCE("VALUE4", '&lt;NULL>')||', '||COALESCE("VALUE5", '&lt;NULL>')||', '||COALESCE("VALUE6", '&lt;NULL>')||', '||COALESCE("VALUE7", '&lt;NULL>')||', '||COALESCE("VALUE8", '&lt;NULL>')||', '||COALESCE("VALUE9", '&lt;NULL>')||', '||COALESCE("VALUE10", '&lt;NULL>')||', '||COALESCE("VALUE11", '&lt;NULL>')||', '||COALESCE("VALUE12", '&lt;NULL>')</previewExpression>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE("STNID", '&lt;NULL>')||', '||COALESCE("M1", '&lt;NULL>')||', '||COALESCE("M2", '&lt;NULL>')||', '||COALESCE("M3", '&lt;NULL>')||', '||COALESCE("M4", '&lt;NULL>')||', '||COALESCE("M5", '&lt;NULL>')||', '||COALESCE("M6", '&lt;NULL>')||', '||COALESCE("M7", '&lt;NULL>')||', '||COALESCE("M8", '&lt;NULL>')||', '||COALESCE("M9", '&lt;NULL>')||', '||COALESCE("M10", '&lt;NULL>')||', '||COALESCE("M11", '&lt;NULL>')||', '||COALESCE("M12", '&lt;NULL>')</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
       <defaults>
         <default field="STNID" expression=""/>
-        <default field="VALUE1" expression=""/>
-        <default field="VALUE2" expression=""/>
-        <default field="VALUE3" expression=""/>
-        <default field="VALUE4" expression=""/>
-        <default field="VALUE5" expression=""/>
-        <default field="VALUE6" expression=""/>
-        <default field="VALUE7" expression=""/>
-        <default field="VALUE8" expression=""/>
-        <default field="VALUE9" expression=""/>
-        <default field="VALUE10" expression=""/>
-        <default field="VALUE11" expression=""/>
-        <default field="VALUE12" expression=""/>
+        <default field="M1" expression=""/>
+        <default field="M2" expression=""/>
+        <default field="M3" expression=""/>
+        <default field="M4" expression=""/>
+        <default field="M5" expression=""/>
+        <default field="M6" expression=""/>
+        <default field="M7" expression=""/>
+        <default field="M8" expression=""/>
+        <default field="M9" expression=""/>
+        <default field="M10" expression=""/>
+        <default field="M11" expression=""/>
+        <default field="M12" expression=""/>
       </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
@@ -116,77 +116,77 @@
         <edittype widgetv2type="TextEdit" name="STNID">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE1">
+        <edittype widgetv2type="TextEdit" name="M1">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE2">
+        <edittype widgetv2type="TextEdit" name="M2">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE3">
+        <edittype widgetv2type="TextEdit" name="M3">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE4">
+        <edittype widgetv2type="TextEdit" name="M4">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE5">
+        <edittype widgetv2type="TextEdit" name="M5">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE6">
+        <edittype widgetv2type="TextEdit" name="M6">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE7">
+        <edittype widgetv2type="TextEdit" name="M7">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE8">
+        <edittype widgetv2type="TextEdit" name="M8">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE9">
+        <edittype widgetv2type="TextEdit" name="M9">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE10">
+        <edittype widgetv2type="TextEdit" name="M10">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE11">
+        <edittype widgetv2type="TextEdit" name="M11">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="VALUE12">
+        <edittype widgetv2type="TextEdit" name="M12">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
       </edittypes>
       <annotationform></annotationform>
       <aliases>
         <alias field="STNID" index="0" name=""/>
-        <alias field="VALUE1" index="1" name=""/>
-        <alias field="VALUE2" index="2" name=""/>
-        <alias field="VALUE3" index="3" name=""/>
-        <alias field="VALUE4" index="4" name=""/>
-        <alias field="VALUE5" index="5" name=""/>
-        <alias field="VALUE6" index="6" name=""/>
-        <alias field="VALUE7" index="7" name=""/>
-        <alias field="VALUE8" index="8" name=""/>
-        <alias field="VALUE9" index="9" name=""/>
-        <alias field="VALUE10" index="10" name=""/>
-        <alias field="VALUE11" index="11" name=""/>
-        <alias field="VALUE12" index="12" name=""/>
+        <alias field="M1" index="1" name=""/>
+        <alias field="M2" index="2" name=""/>
+        <alias field="M3" index="3" name=""/>
+        <alias field="M4" index="4" name=""/>
+        <alias field="M5" index="5" name=""/>
+        <alias field="M6" index="6" name=""/>
+        <alias field="M7" index="7" name=""/>
+        <alias field="M8" index="8" name=""/>
+        <alias field="M9" index="9" name=""/>
+        <alias field="M10" index="10" name=""/>
+        <alias field="M11" index="11" name=""/>
+        <alias field="M12" index="12" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;VALUE1&quot;" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="602790400">
         <columns>
           <column width="-1" hidden="0" type="field" name="STNID"/>
-          <column width="-1" hidden="0" type="field" name="VALUE1"/>
-          <column width="-1" hidden="0" type="field" name="VALUE2"/>
-          <column width="-1" hidden="0" type="field" name="VALUE3"/>
-          <column width="-1" hidden="0" type="field" name="VALUE4"/>
-          <column width="-1" hidden="0" type="field" name="VALUE5"/>
-          <column width="-1" hidden="0" type="field" name="VALUE6"/>
-          <column width="-1" hidden="0" type="field" name="VALUE7"/>
-          <column width="-1" hidden="0" type="field" name="VALUE8"/>
-          <column width="-1" hidden="0" type="field" name="VALUE9"/>
-          <column width="-1" hidden="0" type="field" name="VALUE10"/>
-          <column width="-1" hidden="0" type="field" name="VALUE11"/>
-          <column width="-1" hidden="0" type="field" name="VALUE12"/>
+          <column width="-1" hidden="0" type="field" name="M1"/>
+          <column width="-1" hidden="0" type="field" name="M2"/>
+          <column width="-1" hidden="0" type="field" name="M3"/>
+          <column width="-1" hidden="0" type="field" name="M4"/>
+          <column width="-1" hidden="0" type="field" name="M5"/>
+          <column width="-1" hidden="0" type="field" name="M6"/>
+          <column width="-1" hidden="0" type="field" name="M7"/>
+          <column width="-1" hidden="0" type="field" name="M8"/>
+          <column width="-1" hidden="0" type="field" name="M9"/>
+          <column width="-1" hidden="0" type="field" name="M10"/>
+          <column width="-1" hidden="0" type="field" name="M11"/>
+          <column width="-1" hidden="0" type="field" name="M12"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
@@ -281,7 +281,7 @@
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="104,160,87,255"/>
+              <prop k="color" v="98,207,35,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -631,7 +631,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
-              <prop k="color" v="153,19,33,255"/>
+              <prop k="color" v="201,10,48,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>

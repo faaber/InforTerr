@@ -1,0 +1,2 @@
+"VALUE1" è il nome del campo. 
+to_real( left(  "VALUE1" , length( "VALUE1") - 1) ) / 10
