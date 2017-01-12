@@ -5,7 +5,13 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="CSV_tmin20170111230355099" name="CSV tmin">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="CSV_stazioni_US_CA20170112085318468" name="CSV stazioni US CA">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="shp_tmin20170112093300266" name="shp tmin">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="CSV_tmin_coord_US_CA20170112090227397" name="CSV tmin-coord US CA">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="cb_2015_us_state_20m20170110163758980" name="US State 20m">
@@ -19,10 +25,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-136.21884737626533024</xmin>
-      <ymin>23.40866392279522046</ymin>
-      <xmax>-41.99494828876534314</xmax>
-      <ymax>37.43634682279522252</ymax>
+      <xmin>-210.69233816832817752</xmin>
+      <ymin>39.32456478652220255</ymin>
+      <xmax>-22.24453999332820331</xmax>
+      <ymax>67.37993058652219247</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -41,6 +47,7 @@
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2015_us_state_20m20170110163758980"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmin20170112093300266"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2015_us_county_20m20170110163244230"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
@@ -48,13 +55,25 @@
     <custom-order enabled="0">
       <item>cb_2015_us_county_20m20170110163244230</item>
       <item>cb_2015_us_state_20m20170110163758980</item>
-      <item>CSV_tmin20170111230355099</item>
+      <item>CSV_stazioni_US_CA20170112085318468</item>
+      <item>CSV_tmin_coord_US_CA20170112090227397</item>
+      <item>shp_tmin20170112093300266</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CSV tmin" showFeatureCount="0">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CSV stazioni US CA" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="CSV_tmin20170111230355099" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="CSV_stazioni_US_CA20170112085318468" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="shp tmin" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="shp_tmin20170112093300266" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CSV tmin-coord US CA" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="CSV_tmin_coord_US_CA20170112090227397" visible="1"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="US State 20m" showFeatureCount="0">
@@ -70,12 +89,12 @@
   </legend>
   <projectlayers>
     <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>CSV_tmin20170111230355099</id>
-      <datasource>../09 CSV/CSV tmin.csv</datasource>
+      <id>CSV_stazioni_US_CA20170112085318468</id>
+      <datasource>../09 CSV/CSV stazioni US CA.csv</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>CSV tmin</layername>
+      <layername>CSV stazioni US CA</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -90,10 +109,153 @@
       </srs>
       <customproperties/>
       <provider encoding="System">ogr</provider>
-      <previewExpression>COALESCE("STNID", '&lt;NULL>')||', '||COALESCE("M1", '&lt;NULL>')||', '||COALESCE("M2", '&lt;NULL>')||', '||COALESCE("M3", '&lt;NULL>')||', '||COALESCE("M4", '&lt;NULL>')||', '||COALESCE("M5", '&lt;NULL>')||', '||COALESCE("M6", '&lt;NULL>')||', '||COALESCE("M7", '&lt;NULL>')||', '||COALESCE("M8", '&lt;NULL>')||', '||COALESCE("M9", '&lt;NULL>')||', '||COALESCE("M10", '&lt;NULL>')||', '||COALESCE("M11", '&lt;NULL>')||', '||COALESCE("M12", '&lt;NULL>')</previewExpression>
+      <previewExpression>COALESCE("ID", '&lt;NULL>')||', '||COALESCE("LATITUDE", '&lt;NULL>')||', '||COALESCE("LONGITUDE", '&lt;NULL>')||', '||COALESCE("ELEVATION", '&lt;NULL>')||', '||COALESCE("STATE", '&lt;NULL>')||', '||COALESCE("NAME", '&lt;NULL>')||', '||COALESCE("GSNFLAG", '&lt;NULL>')||', '||COALESCE("HCNFLAG", '&lt;NULL>')||', '||COALESCE("WMOID", '&lt;NULL>')||', '||COALESCE("METHOD", '&lt;NULL>')||', '||COALESCE("field_11", '&lt;NULL>')||', '||COALESCE("field_12", '&lt;NULL>')||', '||COALESCE("field_13", '&lt;NULL>')||', '||COALESCE("field_14", '&lt;NULL>')</previewExpression>
       <vectorjoins/>
       <layerDependencies/>
       <expressionfields/>
+      <defaults>
+        <default field="ID" expression=""/>
+        <default field="LATITUDE" expression=""/>
+        <default field="LONGITUDE" expression=""/>
+        <default field="ELEVATION" expression=""/>
+        <default field="STATE" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="GSNFLAG" expression=""/>
+        <default field="HCNFLAG" expression=""/>
+        <default field="WMOID" expression=""/>
+        <default field="METHOD" expression=""/>
+        <default field="field_11" expression=""/>
+        <default field="field_12" expression=""/>
+        <default field="field_13" expression=""/>
+        <default field="field_14" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GSNFLAG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="HCNFLAG">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="WMOID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="METHOD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_11">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_12">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_13">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_14">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="ID" index="0" name=""/>
+        <alias field="LATITUDE" index="1" name=""/>
+        <alias field="LONGITUDE" index="2" name=""/>
+        <alias field="ELEVATION" index="3" name=""/>
+        <alias field="STATE" index="4" name=""/>
+        <alias field="NAME" index="5" name=""/>
+        <alias field="GSNFLAG" index="6" name=""/>
+        <alias field="HCNFLAG" index="7" name=""/>
+        <alias field="WMOID" index="8" name=""/>
+        <alias field="METHOD" index="9" name=""/>
+        <alias field="field_11" index="10" name=""/>
+        <alias field="field_12" index="11" name=""/>
+        <alias field="field_13" index="12" name=""/>
+        <alias field="field_14" index="13" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1920230765">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="ID"/>
+          <column width="-1" hidden="0" type="field" name="LATITUDE"/>
+          <column width="-1" hidden="0" type="field" name="LONGITUDE"/>
+          <column width="-1" hidden="0" type="field" name="ELEVATION"/>
+          <column width="-1" hidden="0" type="field" name="STATE"/>
+          <column width="-1" hidden="0" type="field" name="NAME"/>
+          <column width="-1" hidden="0" type="field" name="GSNFLAG"/>
+          <column width="-1" hidden="0" type="field" name="HCNFLAG"/>
+          <column width="-1" hidden="0" type="field" name="WMOID"/>
+          <column width="-1" hidden="0" type="field" name="METHOD"/>
+          <column width="-1" hidden="0" type="field" name="field_11"/>
+          <column width="-1" hidden="0" type="field" name="field_12"/>
+          <column width="-1" hidden="0" type="field" name="field_13"/>
+          <column width="-1" hidden="0" type="field" name="field_14"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>CSV_tmin_coord_US_CA20170112090227397</id>
+      <datasource>../09 CSV/CSV tmin-coord US CA.csv</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>CSV tmin-coord US CA</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE("STNID", '&lt;NULL>')||', '||COALESCE("M1", '&lt;NULL>')||', '||COALESCE("M2", '&lt;NULL>')||', '||COALESCE("M3", '&lt;NULL>')||', '||COALESCE("M4", '&lt;NULL>')||', '||COALESCE("M5", '&lt;NULL>')||', '||COALESCE("M6", '&lt;NULL>')||', '||COALESCE("M7", '&lt;NULL>')||', '||COALESCE("M8", '&lt;NULL>')||', '||COALESCE("M9", '&lt;NULL>')||', '||COALESCE("M10", '&lt;NULL>')||', '||COALESCE("M11", '&lt;NULL>')||', '||COALESCE("M12", '&lt;NULL>')||', '||COALESCE("_ID", '&lt;NULL>')||', '||COALESCE("_LATITUDE", '&lt;NULL>')||', '||COALESCE("_LONGITUDE", '&lt;NULL>')||', '||COALESCE("_ELEVATION", '&lt;NULL>')||', '||COALESCE("_STATE", '&lt;NULL>')</previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields>
+        <field typeName="double" precision="4" expression=" &quot;_LONGITUDE&quot; " length="10" type="6" comment="" name="X"/>
+        <field typeName="double" precision="4" expression="  &quot;_LATITUDE&quot; " length="12" type="6" comment="" name="Y"/>
+      </expressionfields>
       <defaults>
         <default field="STNID" expression=""/>
         <default field="M1" expression=""/>
@@ -108,6 +270,13 @@
         <default field="M10" expression=""/>
         <default field="M11" expression=""/>
         <default field="M12" expression=""/>
+        <default field="_ID" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+        <default field="X" expression=""/>
+        <default field="Y" expression=""/>
       </defaults>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
@@ -152,8 +321,29 @@
         <edittype widgetv2type="TextEdit" name="M12">
           <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="X">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Y">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
       </edittypes>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="STNID" index="0" name=""/>
         <alias field="M1" index="1" name=""/>
@@ -168,11 +358,18 @@
         <alias field="M10" index="10" name=""/>
         <alias field="M11" index="11" name=""/>
         <alias field="M12" index="12" name=""/>
+        <alias field="_ID" index="13" name=""/>
+        <alias field="_LATITUDE" index="14" name=""/>
+        <alias field="_LONGITUDE" index="15" name=""/>
+        <alias field="_ELEVATION" index="16" name=""/>
+        <alias field="_STATE" index="17" name=""/>
+        <alias field="X" index="18" name=""/>
+        <alias field="Y" index="19" name=""/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="602790400">
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;_ID&quot;" sortOrder="0">
         <columns>
           <column width="-1" hidden="0" type="field" name="STNID"/>
           <column width="-1" hidden="0" type="field" name="M1"/>
@@ -187,13 +384,18 @@
           <column width="-1" hidden="0" type="field" name="M10"/>
           <column width="-1" hidden="0" type="field" name="M11"/>
           <column width="-1" hidden="0" type="field" name="M12"/>
+          <column width="-1" hidden="0" type="field" name="_ID"/>
+          <column width="-1" hidden="0" type="field" name="_LATITUDE"/>
+          <column width="-1" hidden="0" type="field" name="_LONGITUDE"/>
+          <column width="-1" hidden="0" type="field" name="_ELEVATION"/>
+          <column width="-1" hidden="0" type="field" name="_STATE"/>
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
@@ -895,6 +1097,236 @@ def my_form_open(dialog, layer, feature):
 	geom = feature.geometry()
 	control = dialog.findChild(QWidget, "MyLineEdit")
 ]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>shp_tmin20170112093300266</id>
+      <datasource>../10 Shapefile/shp tmin.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shp tmin</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression>COALESCE( "STNID", '&lt;NULL>' )</previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="STNID" expression=""/>
+        <default field="M1" expression=""/>
+        <default field="M2" expression=""/>
+        <default field="M3" expression=""/>
+        <default field="M4" expression=""/>
+        <default field="M5" expression=""/>
+        <default field="M6" expression=""/>
+        <default field="M7" expression=""/>
+        <default field="M8" expression=""/>
+        <default field="M9" expression=""/>
+        <default field="M10" expression=""/>
+        <default field="M11" expression=""/>
+        <default field="M12" expression=""/>
+        <default field="_ID" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+        <default field="X" expression=""/>
+        <default field="Y" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STNID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M2">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M3">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M4">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M5">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M6">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M7">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M8">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M9">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M10">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M11">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="M12">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="X">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Y">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="129,7,204,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>STNID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="STNID" index="0" name=""/>
+        <alias field="M1" index="1" name=""/>
+        <alias field="M2" index="2" name=""/>
+        <alias field="M3" index="3" name=""/>
+        <alias field="M4" index="4" name=""/>
+        <alias field="M5" index="5" name=""/>
+        <alias field="M6" index="6" name=""/>
+        <alias field="M7" index="7" name=""/>
+        <alias field="M8" index="8" name=""/>
+        <alias field="M9" index="9" name=""/>
+        <alias field="M10" index="10" name=""/>
+        <alias field="M11" index="11" name=""/>
+        <alias field="M12" index="12" name=""/>
+        <alias field="_ID" index="13" name=""/>
+        <alias field="_LATITUDE" index="14" name=""/>
+        <alias field="_LONGITUDE" index="15" name=""/>
+        <alias field="_ELEVATION" index="16" name=""/>
+        <alias field="_STATE" index="17" name=""/>
+        <alias field="X" index="18" name=""/>
+        <alias field="Y" index="19" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;X&quot;" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="STNID"/>
+          <column width="-1" hidden="0" type="field" name="M1"/>
+          <column width="-1" hidden="0" type="field" name="M2"/>
+          <column width="-1" hidden="0" type="field" name="M3"/>
+          <column width="-1" hidden="0" type="field" name="M4"/>
+          <column width="-1" hidden="0" type="field" name="M5"/>
+          <column width="-1" hidden="0" type="field" name="M6"/>
+          <column width="-1" hidden="0" type="field" name="M7"/>
+          <column width="-1" hidden="0" type="field" name="M8"/>
+          <column width="-1" hidden="0" type="field" name="M9"/>
+          <column width="-1" hidden="0" type="field" name="M10"/>
+          <column width="-1" hidden="0" type="field" name="M11"/>
+          <column width="-1" hidden="0" type="field" name="M12"/>
+          <column width="-1" hidden="0" type="field" name="_ID"/>
+          <column width="-1" hidden="0" type="field" name="_LATITUDE"/>
+          <column width="-1" hidden="0" type="field" name="_LONGITUDE"/>
+          <column width="-1" hidden="0" type="field" name="_ELEVATION"/>
+          <column width="-1" hidden="0" type="field" name="_STATE"/>
+          <column width="-1" hidden="0" type="field" name="X"/>
+          <column width="-1" hidden="0" type="field" name="Y"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
       <featformsuppress>0</featformsuppress>
       <editorlayout>generatedlayout</editorlayout>
       <widgets/>
