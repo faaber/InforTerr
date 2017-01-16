@@ -1,0 +1,11 @@
+SELECT id, sum(gen)/100 as gen, sum(feb)/100 as feb, sum(mar)/100 as mar, sum(apr)/100 as apr, sum(mag)/100 as mag, sum(giu)/100 as giu, sum(lug)/100 as lug, sum(ago)/100 as ago, sum(sett)/100 as sett, sum(ott)/100 as ott, sum(nov)/100 as nov, sum(dic)/100 as dic, _LATITUDE, _LONGITUDE, _ELEVATION, _STATE 
+FROM (SELECT * FROM qgis.precipitazioni WHERE anno>=1981 and anno<1981+9) as y81_89
+group by id;
+
+SELECT id, sum(gen)/100 as gen, sum(feb)/100 as feb, sum(mar)/100 as mar, sum(apr)/100 as apr, sum(mag)/100 as mag, sum(giu)/100 as giu, sum(lug)/100 as lug, sum(ago)/100 as ago, sum(sett)/100 as sett, sum(ott)/100 as ott, sum(nov)/100 as nov, sum(dic)/100 as dic, _LATITUDE, _LONGITUDE, _ELEVATION, _STATE 
+FROM (SELECT * FROM qgis.precipitazioni WHERE anno>=1990 and anno<1990+9) as y90_98
+group by id;
+
+SELECT id, sum(gen)/100 as gen, sum(feb)/100 as feb, sum(mar)/100 as mar, sum(apr)/100 as apr, sum(mag)/100 as mag, sum(giu)/100 as giu, sum(lug)/100 as lug, sum(ago)/100 as ago, sum(sett)/100 as sett, sum(ott)/100 as ott, sum(nov)/100 as nov, sum(dic)/100 as dic, _LATITUDE, _LONGITUDE, _ELEVATION, _STATE 
+FROM (SELECT * FROM qgis.precipitazioni WHERE anno>=1999 and anno<1999+9) as y99_07
+group by id;
