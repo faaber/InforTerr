@@ -2,5 +2,3 @@ ftp://ftp.ncdc.noaa.gov/pub/data/normals/1981-2010/readme.txt
 ftp://ftp.ncdc.noaa.gov/pub/data/normals/1981-2010/products/temperature/mly-tmin-normal.txt
 ftp://ftp.ncdc.noaa.gov/pub/data/normals/1981-2010/products/temperature/mly-tmax-normal.txt
 ftp://ftp.ncdc.noaa.gov/pub/data/normals/1981-2010/supplemental/station-inventories/
-
-ftp://ftp.ncdc.noaa.gov/pub/data/normals/1981-2010/products/precipitation/mly-prcp-normal.txt
