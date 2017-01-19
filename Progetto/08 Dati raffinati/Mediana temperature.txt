@@ -1,0 +1,2 @@
+Mediana tmin: 10° Celsius
+Mediana tmax: 22° Celsius
