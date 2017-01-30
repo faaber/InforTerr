@@ -5,32 +5,17 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="tmax">
-      <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="zonali_tmax_diff_01_10___91_0020170127181133157" name="zonali tmax diff 01_10 - 91_00">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="zonali_tmax_diff_91_00___81_9020170127181707776" name="zonali tmax diff 91_00 - 81_90">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_diff_01_10___91_0020170119183905864" name="tmax diff 01_10 - 91_00">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_diff_91_00___81_9020170119183717239" name="tmax diff 91_00 - 81_90">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_01_1020170119182535856" name="tmax 01-10">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_91_0020170119182135461" name="tmax 91-00">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_81_9020170119181755068" name="tmax 81-90">
-        <customproperties/>
-      </layer-tree-layer>
-    </layer-tree-group>
     <layer-tree-group expanded="0" checked="Qt::Unchecked" name="tmin">
       <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shp_tmin_01_1020170130122418231" name="shp tmin 01-10">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shp_tmin_91_0020170130122409112" name="shp tmin 91-00">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shp_tmin_81_9020170130122339536" name="shp tmin 81-90">
+        <customproperties/>
+      </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="zonali_tmin_diff_01_10___91_0020170127183103501" name="zonali tmin diff 01_10 - 91_00">
         <customproperties/>
       </layer-tree-layer>
@@ -53,6 +38,81 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="tmax">
+      <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shp_tmax_01_1020170130122504311" name="shp tmax 01-10">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shp_tmax_91_0020170130122458097" name="shp tmax 91-00">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shp_tmax_81_9020170130122450243" name="shp tmax 81-90">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="zonali_tmax_diff_01_10___91_0020170127181133157" name="zonali tmax diff 01_10 - 91_00">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="zonali_tmax_diff_91_00___81_9020170127181707776" name="zonali tmax diff 91_00 - 81_90">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_diff_01_10___91_0020170119183905864" name="tmax diff 01_10 - 91_00">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_diff_91_00___81_9020170119183717239" name="tmax diff 91_00 - 81_90">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_01_1020170119182535856" name="tmax 01-10">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_91_0020170119182135461" name="tmax 91-00">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="tmax_81_9020170119181755068" name="tmax 81-90">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="prcp">
+      <customproperties/>
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="stazioni &amp; dati decenni">
+        <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mly_prcp_annua_V_stazioni_CA_01_10_tot_mesi20170130113939706" name="mly-prcp-annua V stazioni_CA 01_10+tot_mesi">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mly_prcp_annua_V_stazioni_CA_91_00_tot_mesi20170130113911827" name="mly-prcp-annua V stazioni_CA 91_00+tot_mesi">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="mly_prcp_annua_V_stazioni_CA_81_90_tot_mesi20170130113846671" name="mly-prcp-annua V stazioni_CA 81_90+tot_mesi">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="interpolazioni">
+        <customproperties/>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="81_9020170130114158964" name="81-90">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="91_0020170130114159182" name="91-00">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="01_1020170130114159398" name="01-10">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="91_00_diff_81_9020170130114321206" name="91-00 diff 81-90">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="01_10_diff_81_9020170130114321253" name="01-10 diff 81-90">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="01_10_diff_91_0020170130114321287" name="01-10 diff 91-00">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="statistiche zonali">
+        <customproperties/>
+        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="statistiche_zonali_california_81_90_91_00_01_1020170130114553541" name="statistiche zonali california 81_90 91_00 01_10">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+    </layer-tree-group>
     <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="cb_2015_us_state_20m20170110163758980" name="US State 20m">
       <customproperties/>
     </layer-tree-layer>
@@ -67,10 +127,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>-129.11695867182442043</xmin>
-      <ymin>27.73427030400863202</ymin>
-      <xmax>-108.64829283668345283</xmax>
-      <ymax>46.61765394012574859</ymax>
+      <xmin>-125.69618103234492423</xmin>
+      <ymin>26.80133094778690861</ymin>
+      <xmax>-105.22751519720392821</xmax>
+      <ymax>45.68471458390402518</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -90,6 +150,7 @@
     <layer_coordinate_transform_info>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_01_1020170119181232128"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_81_9020170119171511739"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="81_9020170130114158964"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stazioni_tmin20170112144641170"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="zonali_tmin_diff_91_00___81_9020170127182804075"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmax_01_10_square20170119182420103"/>
@@ -104,10 +165,13 @@
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="California_20m20170119170843549"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmin_a3_81_9020170119170258428"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="CA_State_20m20170127183415486"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="01_10_diff_91_0020170130114321287"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_91_0020170119174555839"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="statistiche_zonali_california_81_90_91_00_01_1020170130114553541"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stazioni_tmax20170113114918451"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stazioni_tmax20170113095727241"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmin_81_9020170119152608909"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="01_10_diff_81_9020170130114321253"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmax_81_9020170119181445741"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_91_0020170119174334106"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmin_01_1020170119181044765"/>
@@ -116,17 +180,22 @@
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin20170117092913253"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmin_coord_US_CA20170112122936206"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmax_91_0020170119181831870"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="mly_prcp_annua_V_stazioni_CA_81_90_tot_mesi20170130113846671"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin20170117100805075"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="91_00_diff_81_9020170130114321206"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_81_9020170119170758987"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmin_geo20170112144325625"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_01_1020170119175215753"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_M120170117101050091"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmax20170117100722428"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmin_81_9020170130122339536"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_California___Template20170127181039886"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmax20170117100753021"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmax_91_0020170119182135461"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmax_81_90_square20170119181702691"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmin_91_0020170130122409112"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="zonali_tmin_diff_01_10___91_0020170127183103501"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="91_0020170130114159182"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_M120170117101345124"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmin_81_9020170119152257861"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_91_0020170119174724166"/>
@@ -136,6 +205,7 @@
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_81_9020170119152755497"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stazioni_tmax20170113095944707"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmin_geo20170117092715564"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="01_1020170130114159398"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_diff_01_10___91_0020170119183455718"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stazioni_tmin20170113095935304"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmax_geo20170113095507055"/>
@@ -146,17 +216,23 @@
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmax_81_9020170119181540880"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2015_us_state_20m20170110163758980"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_diff_91_00___81_9020170119183236609"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmin_01_1020170130122418231"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="mly_prcp_annua_V_stazioni_CA_91_00_tot_mesi20170130113911827"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_01_1020170119181310334"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmax_81_9020170130122450243"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmax_81_9020170119181755068"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmin_91_0020170119174030177"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin20170117092947687"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="zonali_tmax_diff_01_10___91_0020170127181133157"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="Stazioni_tmax20170113114738988"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmax_91_0020170130122458097"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmax_91_0020170119182038826"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmax_01_1020170119182248070"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="mly_prcp_annua_V_stazioni_CA_01_10_tot_mesi20170130113939706"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmin_81_9020170119170613363"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="CSV_tmin_geo20170117092317312"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="cb_2015_us_county_20m20170110163244230"/>
+      <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmax_01_1020170130122504311"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmin_81_9020170119174503847"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="zonali_tmax_diff_91_00___81_9020170127181707776"/>
       <layer_coordinate_transform destAuthId="EPSG:4269" srcAuthId="EPSG:4269" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp_tmin_91_0020170119174103758"/>
@@ -182,47 +258,41 @@
       <item>zonali_tmin_diff_91_00___81_9020170127182804075</item>
       <item>zonali_tmin_diff_01_10___91_0020170127183103501</item>
       <item>CA_Country_20m20170127183803579</item>
+      <item>mly_prcp_annua_V_stazioni_CA_81_90_tot_mesi20170130113846671</item>
+      <item>mly_prcp_annua_V_stazioni_CA_91_00_tot_mesi20170130113911827</item>
+      <item>mly_prcp_annua_V_stazioni_CA_01_10_tot_mesi20170130113939706</item>
+      <item>81_9020170130114158964</item>
+      <item>91_0020170130114159182</item>
+      <item>01_1020170130114159398</item>
+      <item>91_00_diff_81_9020170130114321206</item>
+      <item>01_10_diff_81_9020170130114321253</item>
+      <item>01_10_diff_91_0020170130114321287</item>
+      <item>statistiche_zonali_california_81_90_91_00_01_1020170130114553541</item>
+      <item>shp_tmin_81_9020170130122339536</item>
+      <item>shp_tmin_91_0020170130122409112</item>
+      <item>shp_tmin_01_1020170130122418231</item>
+      <item>shp_tmax_81_9020170130122450243</item>
+      <item>shp_tmax_91_0020170130122458097</item>
+      <item>shp_tmax_01_1020170130122504311</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="false" checked="Qt::Unchecked" name="tmax">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="zonali tmax diff 01_10 - 91_00" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="zonali_tmax_diff_01_10___91_0020170127181133157" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="zonali tmax diff 91_00 - 81_90" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="zonali_tmax_diff_91_00___81_9020170127181707776" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax diff 01_10 - 91_00" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="tmax_diff_01_10___91_0020170119183905864" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax diff 91_00 - 81_90" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="tmax_diff_91_00___81_9020170119183717239" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax 01-10" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="tmax_01_1020170119182535856" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax 91-00" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="tmax_91_0020170119182135461" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax 81-90" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="tmax_81_9020170119181755068" visible="0"/>
-        </filegroup>
-      </legendlayer>
-    </legendgroup>
     <legendgroup open="false" checked="Qt::Unchecked" name="tmin">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="shp tmin 01-10" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="shp_tmin_01_1020170130122418231" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="shp tmin 91-00" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="shp_tmin_91_0020170130122409112" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="shp tmin 81-90" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="shp_tmin_81_9020170130122339536" visible="0"/>
+        </filegroup>
+      </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="zonali tmin diff 01_10 - 91_00" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="zonali_tmin_diff_01_10___91_0020170127183103501" visible="0"/>
@@ -259,6 +329,116 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
+    <legendgroup open="false" checked="Qt::Unchecked" name="tmax">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="shp tmax 01-10" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="shp_tmax_01_1020170130122504311" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="shp tmax 91-00" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="shp_tmax_91_0020170130122458097" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="shp tmax 81-90" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="shp_tmax_81_9020170130122450243" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="zonali tmax diff 01_10 - 91_00" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="zonali_tmax_diff_01_10___91_0020170127181133157" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="zonali tmax diff 91_00 - 81_90" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="zonali_tmax_diff_91_00___81_9020170127181707776" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax diff 01_10 - 91_00" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="tmax_diff_01_10___91_0020170119183905864" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax diff 91_00 - 81_90" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="tmax_diff_91_00___81_9020170119183717239" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax 01-10" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="tmax_01_1020170119182535856" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax 91-00" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="tmax_91_0020170119182135461" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="tmax 81-90" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="tmax_81_9020170119181755068" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup open="false" checked="Qt::Unchecked" name="prcp">
+      <legendgroup open="false" checked="Qt::Unchecked" name="stazioni &amp; dati decenni">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mly-prcp-annua V stazioni_CA 01_10+tot_mesi" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="mly_prcp_annua_V_stazioni_CA_01_10_tot_mesi20170130113939706" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mly-prcp-annua V stazioni_CA 91_00+tot_mesi" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="mly_prcp_annua_V_stazioni_CA_91_00_tot_mesi20170130113911827" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mly-prcp-annua V stazioni_CA 81_90+tot_mesi" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="mly_prcp_annua_V_stazioni_CA_81_90_tot_mesi20170130113846671" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="false" checked="Qt::Unchecked" name="interpolazioni">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="81-90" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="81_9020170130114158964" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="91-00" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="91_0020170130114159182" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="01-10" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="01_1020170130114159398" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="91-00 diff 81-90" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="91_00_diff_81_9020170130114321206" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="01-10 diff 81-90" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="01_10_diff_81_9020170130114321253" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="01-10 diff 91-00" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="01_10_diff_91_0020170130114321287" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="false" checked="Qt::Unchecked" name="statistiche zonali">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="statistiche zonali california 81_90 91_00 01_10" showFeatureCount="0">
+          <filegroup open="false" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="statistiche_zonali_california_81_90_91_00_01_1020170130114553541" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+    </legendgroup>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="US State 20m" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="cb_2015_us_state_20m20170110163758980" visible="0"/>
@@ -276,7 +456,337 @@
     </legendlayer>
   </legend>
   <projectlayers>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21500000000000341</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17100000000000648</xmax>
+        <ymax>41.96220000000000283</ymax>
+      </extent>
+      <id>01_1020170130114159398</id>
+      <datasource>../32 Decenni/raster/01-10.asc</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>01-10</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="1169.87" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="186.128" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="186.128" label="186.128000" color="#ca0020"/>
+              <item alpha="255" value="458.701" label="458.701000" color="#f4a582"/>
+              <item alpha="255" value="731.274" label="731.274000" color="#f7f7f7"/>
+              <item alpha="255" value="1003.85" label="1003.847000" color="#92c5de"/>
+              <item alpha="255" value="1276.42" label="1276.420000" color="#0571b0"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21500000000000341</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17100000000000648</xmax>
+        <ymax>41.96220000000000283</ymax>
+      </extent>
+      <id>01_10_diff_81_9020170130114321253</id>
+      <datasource>../32 Decenni/raster/differenze/01-10 diff 81-90.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>01-10 diff 81-90</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="133.431" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="20.4167" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-155.288" label="-155.288000" color="#ca0020"/>
+              <item alpha="255" value="-83.1082" label="-83.108250" color="#f4a582"/>
+              <item alpha="255" value="0" label="0" color="#ffffff"/>
+              <item alpha="255" value="61.2512" label="61.251250" color="#92c5de"/>
+              <item alpha="255" value="133.431" label="133.431000" color="#0571b0"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21500000000000341</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17100000000000648</xmax>
+        <ymax>41.96220000000000283</ymax>
+      </extent>
+      <id>01_10_diff_91_0020170130114321287</id>
+      <datasource>../32 Decenni/raster/differenze/01-10 diff 91-00.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>01-10 diff 91-00</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="133.431" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="20.4167" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-155.288" label="-155.288000" color="#ca0020"/>
+              <item alpha="255" value="-83.1082" label="-83.108250" color="#f4a582"/>
+              <item alpha="255" value="0" label="0" color="#ffffff"/>
+              <item alpha="255" value="61.2512" label="61.251250" color="#92c5de"/>
+              <item alpha="255" value="133.431" label="133.431000" color="#0571b0"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21500000000000341</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17100000000000648</xmax>
+        <ymax>41.96220000000000283</ymax>
+      </extent>
+      <id>81_9020170130114158964</id>
+      <datasource>../32 Decenni/raster/81-90.asc</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>81-90</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="1169.87" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="186.128" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="186.128" label="186.128000" color="#ca0020"/>
+              <item alpha="255" value="458.701" label="458.701000" color="#f4a582"/>
+              <item alpha="255" value="731.274" label="731.274000" color="#f7f7f7"/>
+              <item alpha="255" value="1003.85" label="1003.847000" color="#92c5de"/>
+              <item alpha="255" value="1276.42" label="1276.420000" color="#0571b0"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21500000000000341</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17100000000000648</xmax>
+        <ymax>41.96220000000000283</ymax>
+      </extent>
+      <id>91_0020170130114159182</id>
+      <datasource>../32 Decenni/raster/91-00.asc</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>91-00</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="1169.87" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="186.128" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="186.128" label="186.128000" color="#ca0020"/>
+              <item alpha="255" value="458.701" label="458.701000" color="#f4a582"/>
+              <item alpha="255" value="731.274" label="731.274000" color="#f7f7f7"/>
+              <item alpha="255" value="1003.85" label="1003.847000" color="#92c5de"/>
+              <item alpha="255" value="1276.42" label="1276.420000" color="#0571b0"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21500000000000341</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17100000000000648</xmax>
+        <ymax>41.96220000000000283</ymax>
+      </extent>
+      <id>91_00_diff_81_9020170130114321206</id>
+      <datasource>../32 Decenni/raster/differenze/91-00 diff 81-90.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>91-00 diff 81-90</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="133.431" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="20.4167" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-155.288" label="-155.288000" color="#ca0020"/>
+              <item alpha="255" value="-83.1082" label="-83.108250" color="#f4a582"/>
+              <item alpha="255" value="0" label="0" color="#ffffff"/>
+              <item alpha="255" value="61.2512" label="61.251250" color="#92c5de"/>
+              <item alpha="255" value="133.431" label="133.431000" color="#0571b0"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-124.40959100000000603</xmin>
+        <ymin>32.53415599999999586</ymin>
+        <xmax>-114.13905499999999904</xmax>
+        <ymax>42.0092469999999949</ymax>
+      </extent>
       <id>CA_Country_20m20170127183803579</id>
       <datasource>../02 Shapefile US Country/CA Country 20m.shp</datasource>
       <keywordList>
@@ -536,6 +1046,7 @@
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -560,8 +1071,8 @@
           </layer>
         </symbol>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="0" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
         <alias field="COUNTYFP" index="1" name=""/>
@@ -575,25 +1086,14 @@
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-2115185494">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="STATEFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYNS"/>
-          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
-          <column width="-1" hidden="0" type="field" name="GEOID"/>
-          <column width="-1" hidden="0" type="field" name="NAME"/>
-          <column width="-1" hidden="0" type="field" name="LSAD"/>
-          <column width="-1" hidden="0" type="field" name="ALAND"/>
-          <column width="-1" hidden="0" type="field" name="AWATER"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
+      <attributeactions default="0"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -910,7 +1410,7 @@ def my_form_open(dialog, layer, feature):
           </layer>
         </symbol>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="0" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>.</annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
@@ -925,20 +1425,9 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;STATEFP&quot;" sortOrder="0">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="STATEFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYNS"/>
-          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
-          <column width="-1" hidden="0" type="field" name="GEOID"/>
-          <column width="-1" hidden="0" type="field" name="NAME"/>
-          <column width="-1" hidden="0" type="field" name="LSAD"/>
-          <column width="-1" hidden="0" type="field" name="ALAND"/>
-          <column width="-1" hidden="0" type="field" name="AWATER"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
+      <attributeactions default="0"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
       </attributetableconfig>
       <editform>.</editform>
       <editforminit/>
@@ -1260,7 +1749,7 @@ def my_form_open(dialog, layer, feature):
           </layer>
         </symbol>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="0" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
       <annotationform>.</annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
@@ -1275,20 +1764,9 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="475805288">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="STATEFP"/>
-          <column width="-1" hidden="0" type="field" name="STATENS"/>
-          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
-          <column width="-1" hidden="0" type="field" name="GEOID"/>
-          <column width="-1" hidden="0" type="field" name="STUSPS"/>
-          <column width="-1" hidden="0" type="field" name="NAME"/>
-          <column width="-1" hidden="0" type="field" name="LSAD"/>
-          <column width="-1" hidden="0" type="field" name="ALAND"/>
-          <column width="-1" hidden="0" type="field" name="AWATER"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
+      <attributeactions default="0"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
       </attributetableconfig>
       <editform>.</editform>
       <editforminit/>
@@ -1319,7 +1797,1993 @@ def my_form_open(dialog, layer, feature):
         <fieldstyles/>
       </conditionalstyles>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21469999999999345</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17079999999999984</xmax>
+        <ymax>41.96000000000000085</ymax>
+      </extent>
+      <id>mly_prcp_annua_V_stazioni_CA_01_10_tot_mesi20170130113939706</id>
+      <datasource>file:../32%20Decenni/mly-prcp-annua%20V%20stazioni_CA%2001_10+tot_mesi.csv?type=csv&amp;xField=_LONGITUDE&amp;yField=_LATITUDE&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>mly-prcp-annua V stazioni_CA 01_10+tot_mesi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">delimitedtext</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="X" expression=""/>
+        <default field="Y" expression=""/>
+        <default field="id" expression=""/>
+        <default field="gen" expression=""/>
+        <default field="feb" expression=""/>
+        <default field="mar" expression=""/>
+        <default field="apr" expression=""/>
+        <default field="mag" expression=""/>
+        <default field="giu" expression=""/>
+        <default field="lug" expression=""/>
+        <default field="ago" expression=""/>
+        <default field="sett" expression=""/>
+        <default field="ott" expression=""/>
+        <default field="nov" expression=""/>
+        <default field="dic" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+        <default field="tot_mesi" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="X">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Y">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="gen">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="feb">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mar">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="apr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mag">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="giu">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lug">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ago">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="sett">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ott">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nov">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dic">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tot_mesi">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="129,7,204,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="X" index="0" name=""/>
+        <alias field="Y" index="1" name=""/>
+        <alias field="id" index="2" name=""/>
+        <alias field="gen" index="3" name=""/>
+        <alias field="feb" index="4" name=""/>
+        <alias field="mar" index="5" name=""/>
+        <alias field="apr" index="6" name=""/>
+        <alias field="mag" index="7" name=""/>
+        <alias field="giu" index="8" name=""/>
+        <alias field="lug" index="9" name=""/>
+        <alias field="ago" index="10" name=""/>
+        <alias field="sett" index="11" name=""/>
+        <alias field="ott" index="12" name=""/>
+        <alias field="nov" index="13" name=""/>
+        <alias field="dic" index="14" name=""/>
+        <alias field="_LATITUDE" index="15" name=""/>
+        <alias field="_LONGITUDE" index="16" name=""/>
+        <alias field="_ELEVATION" index="17" name=""/>
+        <alias field="_STATE" index="18" name=""/>
+        <alias field="tot_mesi" index="19" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="0"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21469999999999345</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17079999999999984</xmax>
+        <ymax>41.96000000000000085</ymax>
+      </extent>
+      <id>mly_prcp_annua_V_stazioni_CA_81_90_tot_mesi20170130113846671</id>
+      <datasource>file:../32%20Decenni/mly-prcp-annua%20V%20stazioni_CA%2081_90+tot_mesi.csv?type=csv&amp;xField=_LONGITUDE&amp;yField=_LATITUDE&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>mly-prcp-annua V stazioni_CA 81_90+tot_mesi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">delimitedtext</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="X" expression=""/>
+        <default field="Y" expression=""/>
+        <default field="id" expression=""/>
+        <default field="gen" expression=""/>
+        <default field="feb" expression=""/>
+        <default field="mar" expression=""/>
+        <default field="apr" expression=""/>
+        <default field="mag" expression=""/>
+        <default field="giu" expression=""/>
+        <default field="lug" expression=""/>
+        <default field="ago" expression=""/>
+        <default field="sett" expression=""/>
+        <default field="ott" expression=""/>
+        <default field="nov" expression=""/>
+        <default field="dic" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+        <default field="tot_mesi" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="X">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Y">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="gen">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="feb">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mar">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="apr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mag">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="giu">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lug">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ago">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="sett">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ott">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nov">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dic">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tot_mesi">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="104,160,87,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="X" index="0" name=""/>
+        <alias field="Y" index="1" name=""/>
+        <alias field="id" index="2" name=""/>
+        <alias field="gen" index="3" name=""/>
+        <alias field="feb" index="4" name=""/>
+        <alias field="mar" index="5" name=""/>
+        <alias field="apr" index="6" name=""/>
+        <alias field="mag" index="7" name=""/>
+        <alias field="giu" index="8" name=""/>
+        <alias field="lug" index="9" name=""/>
+        <alias field="ago" index="10" name=""/>
+        <alias field="sett" index="11" name=""/>
+        <alias field="ott" index="12" name=""/>
+        <alias field="nov" index="13" name=""/>
+        <alias field="dic" index="14" name=""/>
+        <alias field="_LATITUDE" index="15" name=""/>
+        <alias field="_LONGITUDE" index="16" name=""/>
+        <alias field="_ELEVATION" index="17" name=""/>
+        <alias field="_STATE" index="18" name=""/>
+        <alias field="tot_mesi" index="19" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="0"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-124.21469999999999345</xmin>
+        <ymin>32.57220000000000226</ymin>
+        <xmax>-114.17079999999999984</xmax>
+        <ymax>41.96000000000000085</ymax>
+      </extent>
+      <id>mly_prcp_annua_V_stazioni_CA_91_00_tot_mesi20170130113911827</id>
+      <datasource>file:../32%20Decenni/mly-prcp-annua%20V%20stazioni_CA%2091_00+tot_mesi.csv?type=csv&amp;xField=_LONGITUDE&amp;yField=_LATITUDE&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>mly-prcp-annua V stazioni_CA 91_00+tot_mesi</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">delimitedtext</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="X" expression=""/>
+        <default field="Y" expression=""/>
+        <default field="id" expression=""/>
+        <default field="gen" expression=""/>
+        <default field="feb" expression=""/>
+        <default field="mar" expression=""/>
+        <default field="apr" expression=""/>
+        <default field="mag" expression=""/>
+        <default field="giu" expression=""/>
+        <default field="lug" expression=""/>
+        <default field="ago" expression=""/>
+        <default field="sett" expression=""/>
+        <default field="ott" expression=""/>
+        <default field="nov" expression=""/>
+        <default field="dic" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+        <default field="tot_mesi" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="X">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Y">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="gen">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="feb">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mar">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="apr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mag">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="giu">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="lug">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ago">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="sett">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ott">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nov">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="dic">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="tot_mesi">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="152,64,149,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="X" index="0" name=""/>
+        <alias field="Y" index="1" name=""/>
+        <alias field="id" index="2" name=""/>
+        <alias field="gen" index="3" name=""/>
+        <alias field="feb" index="4" name=""/>
+        <alias field="mar" index="5" name=""/>
+        <alias field="apr" index="6" name=""/>
+        <alias field="mag" index="7" name=""/>
+        <alias field="giu" index="8" name=""/>
+        <alias field="lug" index="9" name=""/>
+        <alias field="ago" index="10" name=""/>
+        <alias field="sett" index="11" name=""/>
+        <alias field="ott" index="12" name=""/>
+        <alias field="nov" index="13" name=""/>
+        <alias field="dic" index="14" name=""/>
+        <alias field="_LATITUDE" index="15" name=""/>
+        <alias field="_LONGITUDE" index="16" name=""/>
+        <alias field="_ELEVATION" index="17" name=""/>
+        <alias field="_STATE" index="18" name=""/>
+        <alias field="tot_mesi" index="19" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="0"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>shp_tmax_01_1020170130122504311</id>
+      <datasource>../10 Shapefile/shp tmax 01-10.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shp tmax 01-10</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="STNID" expression=""/>
+        <default field="MEDIA" expression=""/>
+        <default field="_ID" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STNID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MEDIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="80,83,137,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>STNID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="STNID" index="0" name=""/>
+        <alias field="MEDIA" index="1" name=""/>
+        <alias field="_ID" index="2" name=""/>
+        <alias field="_LATITUDE" index="3" name=""/>
+        <alias field="_LONGITUDE" index="4" name=""/>
+        <alias field="_ELEVATION" index="5" name=""/>
+        <alias field="_STATE" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="2083617846">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>shp_tmax_81_9020170130122450243</id>
+      <datasource>../10 Shapefile/shp tmax 81-90.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shp tmax 81-90</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="STNID" expression=""/>
+        <default field="MEDIA" expression=""/>
+        <default field="_ID" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STNID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MEDIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="162,228,230,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>STNID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="STNID" index="0" name=""/>
+        <alias field="MEDIA" index="1" name=""/>
+        <alias field="_ID" index="2" name=""/>
+        <alias field="_LATITUDE" index="3" name=""/>
+        <alias field="_LONGITUDE" index="4" name=""/>
+        <alias field="_ELEVATION" index="5" name=""/>
+        <alias field="_STATE" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-2115185494">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>shp_tmax_91_0020170130122458097</id>
+      <datasource>../10 Shapefile/shp tmax 91-00.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shp tmax 91-00</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="STNID" expression=""/>
+        <default field="MEDIA" expression=""/>
+        <default field="_ID" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STNID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MEDIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="147,170,213,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>STNID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="STNID" index="0" name=""/>
+        <alias field="MEDIA" index="1" name=""/>
+        <alias field="_ID" index="2" name=""/>
+        <alias field="_LATITUDE" index="3" name=""/>
+        <alias field="_LONGITUDE" index="4" name=""/>
+        <alias field="_ELEVATION" index="5" name=""/>
+        <alias field="_STATE" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1853172480">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>shp_tmin_01_1020170130122418231</id>
+      <datasource>../10 Shapefile/shp tmin 01-10.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shp tmin 01-10</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="STNID" expression=""/>
+        <default field="MEDIA" expression=""/>
+        <default field="_ID" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STNID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MEDIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="146,95,146,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>STNID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="STNID" index="0" name=""/>
+        <alias field="MEDIA" index="1" name=""/>
+        <alias field="_ID" index="2" name=""/>
+        <alias field="_LATITUDE" index="3" name=""/>
+        <alias field="_LONGITUDE" index="4" name=""/>
+        <alias field="_ELEVATION" index="5" name=""/>
+        <alias field="_STATE" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-2129193216">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>shp_tmin_81_9020170130122339536</id>
+      <datasource>../10 Shapefile/shp tmin 81-90.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shp tmin 81-90</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <previewExpression>COALESCE( "STNID", '&lt;NULL>' )</previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="STNID" expression=""/>
+        <default field="MEDIA" expression=""/>
+        <default field="_ID" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STNID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MEDIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="213,117,239,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>STNID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="STNID" index="0" name=""/>
+        <alias field="MEDIA" index="1" name=""/>
+        <alias field="_ID" index="2" name=""/>
+        <alias field="_LATITUDE" index="3" name=""/>
+        <alias field="_LONGITUDE" index="4" name=""/>
+        <alias field="_ELEVATION" index="5" name=""/>
+        <alias field="_STATE" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1191183747">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="STNID"/>
+          <column width="-1" hidden="0" type="field" name="MEDIA"/>
+          <column width="-1" hidden="0" type="field" name="_ID"/>
+          <column width="-1" hidden="0" type="field" name="_LATITUDE"/>
+          <column width="-1" hidden="0" type="field" name="_LONGITUDE"/>
+          <column width="-1" hidden="0" type="field" name="_ELEVATION"/>
+          <column width="-1" hidden="0" type="field" name="_STATE"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>shp_tmin_91_0020170130122409112</id>
+      <datasource>../10 Shapefile/shp tmin 91-00.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>shp tmin 91-00</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="STNID" expression=""/>
+        <default field="MEDIA" expression=""/>
+        <default field="_ID" expression=""/>
+        <default field="_LATITUDE" expression=""/>
+        <default field="_LONGITUDE" expression=""/>
+        <default field="_ELEVATION" expression=""/>
+        <default field="_STATE" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STNID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MEDIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_ELEVATION">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="_STATE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="147,235,224,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>STNID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="STNID" index="0" name=""/>
+        <alias field="MEDIA" index="1" name=""/>
+        <alias field="_ID" index="2" name=""/>
+        <alias field="_LATITUDE" index="3" name=""/>
+        <alias field="_LONGITUDE" index="4" name=""/>
+        <alias field="_ELEVATION" index="5" name=""/>
+        <alias field="_STATE" index="6" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="1030583552">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" readOnly="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>-124.40959100000000603</xmin>
+        <ymin>32.53415599999999586</ymin>
+        <xmax>-114.13905499999999904</xmax>
+        <ymax>42.0092469999999949</ymax>
+      </extent>
+      <id>statistiche_zonali_california_81_90_91_00_01_1020170130114553541</id>
+      <datasource>../32 Decenni/statistiche zonali california 81_90 91_00 01_10/statistiche zonali california 81_90 91_00 01_10.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>statistiche zonali california 81_90 91_00 01_10</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3401</srsid>
+          <srid>4269</srid>
+          <authid>EPSG:4269</authid>
+          <description>NAD83</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <defaults>
+        <default field="STATEFP" expression=""/>
+        <default field="COUNTYFP" expression=""/>
+        <default field="COUNTYNS" expression=""/>
+        <default field="AFFGEOID" expression=""/>
+        <default field="GEOID" expression=""/>
+        <default field="NAME" expression=""/>
+        <default field="LSAD" expression=""/>
+        <default field="ALAND" expression=""/>
+        <default field="AWATER" expression=""/>
+        <default field="[01-10]mea" expression=""/>
+        <default field="[01-10]min" expression=""/>
+        <default field="[01-10]max" expression=""/>
+        <default field="[91-00]mea" expression=""/>
+        <default field="[91-00]min" expression=""/>
+        <default field="[91-00]max" expression=""/>
+        <default field="[81-90]mea" expression=""/>
+        <default field="[81-90]min" expression=""/>
+        <default field="[81-90]max" expression=""/>
+      </defaults>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="STATEFP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COUNTYFP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COUNTYNS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AFFGEOID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="GEOID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NAME">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LSAD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ALAND">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="AWATER">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[01-10]mea">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[01-10]min">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[01-10]max">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[91-00]mea">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[91-00]min">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[91-00]max">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[81-90]mea">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[81-90]min">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="[81-90]max">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 attr="[81-90]mea" forceraster="0" symbollevels="0" type="graduatedSymbol" graduatedMethod="GraduatedColor" enableorderby="1">
+        <ranges>
+          <range render="true" symbol="0" lower="187.313104595631955" upper="443.484810667977740" label=" 187.3131 - 443.4848 "/>
+          <range render="true" symbol="1" lower="443.484810667977740" upper="699.656516740323468" label=" 443.4848 - 699.6565 "/>
+          <range render="true" symbol="2" lower="699.656516740323468" upper="955.828222812669310" label=" 699.6565 - 955.8282 "/>
+          <range render="true" symbol="3" lower="955.828222812669310" upper="1211.999928885015152" label=" 955.8282 - 1211.9999 "/>
+          <range render="true" symbol="4" lower="1211.999928885015152" upper="1468.171634957360993" label=" 1211.9999 - 1468.1716 "/>
+        </ranges>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="202,0,32,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="244,165,130,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="247,247,247,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="146,197,222,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="5,113,176,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <source-symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="35,37,157,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </source-symbol>
+        <colorramp type="gradient" name="[source]">
+          <prop k="color1" v="202,0,32,255"/>
+          <prop k="color2" v="5,113,176,255"/>
+          <prop k="discrete" v="0"/>
+          <prop k="stops" v="0.25;244,165,130,255:0.5;247,247,247,255:0.75;146,197,222,255"/>
+        </colorramp>
+        <invertedcolorramp value="0"/>
+        <mode name="equal"/>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+        <labelformat format=" %1 - %2 " trimtrailingzeroes="false" decimalplaces="0"/>
+        <orderby>
+          <orderByClause asc="0" nullsFirst="1">distance(  $geometry,  translate(    @map_extent_center,    1000 * @map_extent_width * cos( radians( @qgis_25d_angle + 180 ) ),    1000 * @map_extent_width * sin( radians( @qgis_25d_angle + 180 ) )  ))</orderByClause>
+        </orderby>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="64"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="8.25"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="0"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Normal"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames" value="_fields_"/>
+        <property key="variableValues" value=""/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>NAME</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Etichetta"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Pie" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="-4.65661e-10">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="0" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="STATEFP" index="0" name=""/>
+        <alias field="COUNTYFP" index="1" name=""/>
+        <alias field="COUNTYNS" index="2" name=""/>
+        <alias field="AFFGEOID" index="3" name=""/>
+        <alias field="GEOID" index="4" name=""/>
+        <alias field="NAME" index="5" name=""/>
+        <alias field="LSAD" index="6" name=""/>
+        <alias field="ALAND" index="7" name=""/>
+        <alias field="AWATER" index="8" name=""/>
+        <alias field="[01-10]mea" index="9" name=""/>
+        <alias field="[01-10]min" index="10" name=""/>
+        <alias field="[01-10]max" index="11" name=""/>
+        <alias field="[91-00]mea" index="12" name=""/>
+        <alias field="[91-00]min" index="13" name=""/>
+        <alias field="[91-00]max" index="14" name=""/>
+        <alias field="[81-90]mea" index="15" name=""/>
+        <alias field="[81-90]min" index="16" name=""/>
+        <alias field="[81-90]max" index="17" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from PyQt4.QtGui import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999147</ymin>
@@ -1374,7 +3838,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999147</ymin>
@@ -1429,7 +3893,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999147</ymin>
@@ -1484,7 +3948,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999858</ymin>
@@ -1539,7 +4003,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999858</ymin>
@@ -1594,7 +4058,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999147</ymin>
@@ -1649,7 +4113,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999147</ymin>
@@ -1704,7 +4168,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999147</ymin>
@@ -1759,7 +4223,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999858</ymin>
@@ -1814,7 +4278,7 @@ def my_form_open(dialog, layer, feature):
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-127.56399999999999295</xmin>
         <ymin>32.33749999999999858</ymin>
@@ -2226,6 +4690,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -2250,8 +4715,8 @@ def my_form_open(dialog, layer, feature):
           </layer>
         </symbol>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="0" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
         <alias field="COUNTYFP" index="1" name=""/>
@@ -2267,25 +4732,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="171649381">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="STATEFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYNS"/>
-          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
-          <column width="-1" hidden="0" type="field" name="GEOID"/>
-          <column width="-1" hidden="0" type="field" name="NAME"/>
-          <column width="-1" hidden="0" type="field" name="LSAD"/>
-          <column width="-1" hidden="0" type="field" name="ALAND"/>
-          <column width="-1" hidden="0" type="field" name="AWATER"/>
-          <column width="-1" hidden="0" type="field" name="mean"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -2668,6 +5121,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -2692,8 +5146,8 @@ def my_form_open(dialog, layer, feature):
           </layer>
         </symbol>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="0" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
         <alias field="COUNTYFP" index="1" name=""/>
@@ -2708,26 +5162,14 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="992568685">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="STATEFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYNS"/>
-          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
-          <column width="-1" hidden="0" type="field" name="GEOID"/>
-          <column width="-1" hidden="0" type="field" name="NAME"/>
-          <column width="-1" hidden="0" type="field" name="LSAD"/>
-          <column width="-1" hidden="0" type="field" name="ALAND"/>
-          <column width="-1" hidden="0" type="field" name="AWATER"/>
-          <column width="-1" hidden="0" type="field" name="mean"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
+      <attributeactions default="0"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -3110,6 +5552,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -3134,8 +5577,8 @@ def my_form_open(dialog, layer, feature):
           </layer>
         </symbol>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="0" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
         <alias field="COUNTYFP" index="1" name=""/>
@@ -3151,25 +5594,13 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions default="-1"/>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="126858928">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="STATEFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYNS"/>
-          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
-          <column width="-1" hidden="0" type="field" name="GEOID"/>
-          <column width="-1" hidden="0" type="field" name="NAME"/>
-          <column width="-1" hidden="0" type="field" name="LSAD"/>
-          <column width="-1" hidden="0" type="field" name="ALAND"/>
-          <column width="-1" hidden="0" type="field" name="AWATER"/>
-          <column width="-1" hidden="0" type="field" name="mean"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -3552,6 +5983,7 @@ def my_form_open(dialog, layer, feature):
       <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
           <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
         <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
           <layer pass="0" class="SimpleMarker" locked="0">
@@ -3576,8 +6008,8 @@ def my_form_open(dialog, layer, feature):
           </layer>
         </symbol>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="0" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="STATEFP" index="0" name=""/>
         <alias field="COUNTYFP" index="1" name=""/>
@@ -3592,26 +6024,14 @@ def my_form_open(dialog, layer, feature):
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
-      <attributeactions default="-1"/>
+      <attributeactions default="0"/>
       <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
-        <columns>
-          <column width="-1" hidden="0" type="field" name="STATEFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYFP"/>
-          <column width="-1" hidden="0" type="field" name="COUNTYNS"/>
-          <column width="-1" hidden="0" type="field" name="AFFGEOID"/>
-          <column width="-1" hidden="0" type="field" name="GEOID"/>
-          <column width="-1" hidden="0" type="field" name="NAME"/>
-          <column width="-1" hidden="0" type="field" name="LSAD"/>
-          <column width="-1" hidden="0" type="field" name="ALAND"/>
-          <column width="-1" hidden="0" type="field" name="AWATER"/>
-          <column width="-1" hidden="0" type="field" name="mean"/>
-          <column width="-1" hidden="1" type="actions"/>
-        </columns>
+        <columns/>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -3674,14 +6094,16 @@ def my_form_open(dialog, layer, feature):
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
+        <value>CA_Country_20m20170127183803579</value>
         <value>cb_2015_us_county_20m20170110163244230</value>
         <value>cb_2015_us_state_20m20170110163758980</value>
         <value>zonali_tmax_diff_01_10___91_0020170127181133157</value>
         <value>zonali_tmax_diff_91_00___81_9020170127181707776</value>
-        <value>zonali_tmin_diff_91_00___81_9020170127182804075</value>
         <value>zonali_tmin_diff_01_10___91_0020170127183103501</value>
+        <value>zonali_tmin_diff_91_00___81_9020170127182804075</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
+        <value>enabled</value>
         <value>enabled</value>
         <value>enabled</value>
         <value>disabled</value>
@@ -3698,6 +6120,7 @@ def my_form_open(dialog, layer, feature):
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
         <value>to_vertex_and_segment</value>
@@ -3706,10 +6129,12 @@ def my_form_open(dialog, layer, feature):
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">to vertex and segment</DefaultSnapType>
-      <DefaultSnapTolerance type="double">10</DefaultSnapTolerance>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>10.000000</value>
         <value>10.000000</value>
         <value>0.000000</value>
